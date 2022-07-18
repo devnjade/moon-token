@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract YakToken is Ownable, ERC20, ReentrancyGuard {
+contract Moon is Ownable, ERC20, ReentrancyGuard {
     uint256 public initTotalSupply;
 
     constructor() ERC20("Moon", "MUN") {}
